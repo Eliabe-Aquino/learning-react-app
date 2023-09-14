@@ -18,7 +18,7 @@ const Paragraph = () => {
             <p id="paragraph" style={paraStyle} onClick={()=> {
                 getColor()
             }}>
-                Clique em no texto e veja uma magica acontecer ou recarregue a pagina.
+                Clique no texto e veja uma magica acontecer ou recarregue a pagina.
             </p>
         </div>
     )
