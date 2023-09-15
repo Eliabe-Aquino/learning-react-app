@@ -15,11 +15,7 @@ let paraStyle = {
 const Paragraph = () => {
     return (
         <div>
-            <p id="paragraph" style={paraStyle} onClick={()=> {
-                getColor()
-            }}>
-                Clique no texto e veja uma magica acontecer ou recarregue a pagina.
-            </p>
+            <p id="paragraph" style={paraStyle} onClick={getColor}>{paraStyle.title}</p>
         </div>
     )
 }
