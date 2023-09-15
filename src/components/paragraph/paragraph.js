@@ -9,7 +9,8 @@ const getColor = () => {
 }
 let paraStyle = {
     color: generateColor(),
-    textTransform: 'uppercase'
+    textTransform: 'uppercase',
+    title: 'Clique em no texto e veja uma magica acontecer ou recarregue a pagina.'
 }
 
 const Paragraph = () => {
