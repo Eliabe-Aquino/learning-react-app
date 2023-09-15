@@ -7,7 +7,7 @@ const getColor = () => {
      paragrafo.style.color = generateColor();
     
 }
-let paraStyle = {
+let paragraphComponent = {
     color: generateColor(),
     textTransform: 'uppercase',
     title: 'Clique em no texto e veja uma magica acontecer ou recarregue a pagina.'
@@ -16,7 +16,7 @@ let paraStyle = {
 const Paragraph = () => {
     return (
         <div>
-            <p id="paragraph" style={paraStyle} onClick={getColor}>{paraStyle.title}</p>
+            <p id="paragraph" style={paragraphComponent} onClick={getColor}>{paragraphComponent.title}</p>
         </div>
     )
 }
